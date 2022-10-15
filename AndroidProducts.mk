@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_pioneer.mk
+    $(LOCAL_DIR)/aosp_pioneer.mk
+    
+COMMON_LUNCH_CHOICES := \
+    aosp_pioneer-user \
+    aosp_pioneer-userdebug \
+    aosp_pioneer-eng

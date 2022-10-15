@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
     system/timezone/output_data/iana/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_pioneer
+PRODUCT_NAME := aosp_pioneer
 PRODUCT_DEVICE := pioneer
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Xperia XA2
